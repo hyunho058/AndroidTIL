@@ -57,15 +57,19 @@ android.support.v7.widget.RecyclerView.Adapter
 
 
 
-
+### 참고자료
 
 [Developers java source](https://github.com/android/views-widgets-samples/tree/master/RecyclerView)
 
-```
-
-```
-
 [참고 자료](https://dev-imaec.tistory.com/27)
+
+
+
+## SnapHelper
+
+### 참고 자료
+
+[AndroidDeveloper](https://developer.android.com/reference/android/support/v7/widget/SnapHelper)
 
 ## Err
 
