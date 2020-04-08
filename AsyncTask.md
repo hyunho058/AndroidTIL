@@ -4,7 +4,7 @@
 
 <img src="AsyncTask.assets/image-20200408001628703.png" alt="image-20200408001628703" style="zoom:150%;" />
 
-
+* AsyncTask 예제
 
 ```java
 public class JSONTASK extends AsyncTask<String,Void,String> {
@@ -73,6 +73,10 @@ public class JSONTASK extends AsyncTask<String,Void,String> {
 >
 > 으로 하면된다!!! 무려 execute 하고 난 후에 get을 하면 얻어올수 잇다
 
+* 비동기식을 이용
+* AsyncTask class 를 상속받는 class Code 구현
+  * AsyncTask<시작파라미터,진행상태,서버로받은데이터를 리턴할때사용하는타입>
+
 ```java
  private class DownloadFilesTask extends AsyncTask<URL, Integer, Long> {
      protected Long doInBackground(URL... urls) {
@@ -97,14 +101,21 @@ public class JSONTASK extends AsyncTask<String,Void,String> {
  }
 ```
 
+* Activity 에서 AsyncTask class 호출
+
 ```java
  new DownloadFilesTask().execute(url1, url2, url3)
 ```
 
-> 
+* Asynctask 실행. url값을 String파라미터로 넘겨주고 doinbackground메소드에서 받는다.
+
+
 
 ## 참고자료
+
+[AsyncTask JsonObject 전달](https://94chan0.tistory.com/4)
 
 [AsyncTask](https://itmining.tistory.com/7)
 
 [stack overflow](https://stackoverflow.com/questions/15719942/get-json-in-asynctask-android)
+
