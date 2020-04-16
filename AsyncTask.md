@@ -113,6 +113,8 @@ public class JSONTASK extends AsyncTask<String,Void,String> {
 
 ## 참고자료
 
+[Hanlder, AsynTask 비교](https://www.androidpub.com/1340505)
+
 [AsyncTask JsonObject 전달](https://94chan0.tistory.com/4)
 
 [AsyncTask](https://itmining.tistory.com/7)
