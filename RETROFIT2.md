@@ -20,3 +20,5 @@ implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
 # 참고사이트
 
 [Retrofit2 Example](https://falinrush.tistory.com/5)
+
+[kakaoAPI_MAP](https://youngest-programming.tistory.com/163)
