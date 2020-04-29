@@ -109,7 +109,7 @@ public class JSONTASK extends AsyncTask<String,Void,String> {
 
 * Asynctask 실행. url값을 String파라미터로 넘겨주고 doinbackground메소드에서 받는다.
 
-
+![image-20200428232141960](AsyncTask.assets/image-20200428232141960.png)
 
 ## 참고자료
 
@@ -121,3 +121,4 @@ public class JSONTASK extends AsyncTask<String,Void,String> {
 
 [stack overflow](https://stackoverflow.com/questions/15719942/get-json-in-asynctask-android)
 
+[AsyncTask Basic](https://whereisusb.tistory.com/25)
