@@ -53,7 +53,9 @@ public void onActivityResult(int requestCode, int resultCode, @Nullable Intent d
 
 [QRcode](https://namjackson.tistory.com/15)
 
-[anver and Zxing](http://blog.naver.com/PostView.nhn?blogId=rain483&logNo=220848490340&parentCategoryNo=&categoryNo=16&viewDate=&isShowPopularPosts=false&from=postView)
+[naver and Zxing](http://blog.naver.com/PostView.nhn?blogId=rain483&logNo=220848490340&parentCategoryNo=&categoryNo=16&viewDate=&isShowPopularPosts=false&from=postView)
 
-[]()https://everyshare.tistory.com/51
+[Lotto조회]()https://everyshare.tistory.com/51
+
+[StackOverflow](https://stackoverflow.com/questions/37251583/how-to-start-zxing-on-a-fragment/43966669)
 
