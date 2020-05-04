@@ -107,3 +107,5 @@ public class FragmentA extends Fragment {
 [Fragment 참고](https://tedrepository.tistory.com/5)
 
 [Fragment 기초](https://tedrepository.tistory.com/6)
+
+{DataShared}(https://itpangpang.xyz/309)

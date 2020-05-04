@@ -1,7 +1,7 @@
 # RecyclerVIew
 
 * App에서 대량의 데이터 세트 또는 자주 변경되는 데이터에 기반한 요소의 스크롤 목록을 표시해야할떄 사용.
-* LIstVIew 보다 진보하고 유연해진 버전
+* LIstVIew 보다 진보하고 유연해진 버전 
 
 ## RecyclerView 를 위한 구성 요소
 
@@ -55,9 +55,28 @@ android.support.v7.widget.RecyclerView.Adapter
 
 ## 기본 사용
 
+* Workflow
+
+![image-20200504101740885](RecyclerVIew.assets/image-20200504101740885.png) 
+
+* Adapter.class
+
+```java
+
+```
 
 
-### 참고자료
+
+* Method 실행 순서
+  1. getItemCount()
+  2. getItemViewType()
+  3. onCreateViewHolder()
+     * ItemClass
+  4. IonBindViewHolder
+
+![image-20200504101440610](RecyclerVIew.assets/image-20200504101440610.png) 
+
+### Reference
 
 [Developers java source](https://github.com/android/views-widgets-samples/tree/master/RecyclerView)
 
@@ -67,9 +86,23 @@ android.support.v7.widget.RecyclerView.Adapter
 
 ## SnapHelper
 
-### 참고 자료
+### Reference
 
 [AndroidDeveloper](https://developer.android.com/reference/android/support/v7/widget/SnapHelper)
+
+
+
+## 특정 View ClickEvent
+
+* RecyclerVIew 안의 Button이나 TextView,Layout같은 특정 View를 터치 혹은 킬릭하는 것을 감지하기 위해 RecyclerViewAdapter 안에 OnItemClickListener interface와 그 멤버변수를 선언
+
+### Reference
+
+[ClickEvent](http://superstress.com/4/12/14/)
+
+[11](https://onlyformylittlefox.tistory.com/9)
+
+
 
 ## Err
 
@@ -117,7 +150,7 @@ parcelable 은 인터페이스로서 bundle 에서도 구현하고 있습니다.
 
 ### Fragment 사용 할떄 
 
-```
+```java
 // 줄때
 Fragment f = new Fragment();
 Bundle bundle = new Bundle();
@@ -131,7 +164,7 @@ bundle.getSerializable("Obj");
 bundle.getParcelableArrayList("list");
 ```
 
-```
+```java
 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
 fragmentManager.beginTransaction().remove(CalendarFragment.this).commit();
 fragmentManager.popBackStack();
@@ -139,3 +172,10 @@ fragmentManager.popBackStack();
 프레그먼트 종료
 ```
 
+
+
+
+
+## Other Refernece
+
+[itemListener](https://onlyformylittlefox.tistory.com/9)
