@@ -1,6 +1,6 @@
 # TabLayout
 
-* 종석성
+* 종속성
 
 ```
 dependencies {
@@ -61,6 +61,8 @@ tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener(){
   ```
 
   * [참고](https://hee96-story.tistory.com/52)
+
+![image-20200506234428863](TabLayout.assets/image-20200506234428863.png)
 
 ## 참고 자료
 
