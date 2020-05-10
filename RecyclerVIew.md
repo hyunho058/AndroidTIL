@@ -116,9 +116,15 @@ Error inflating class android.support.v7.widget.RecyclerView
 
 
 
+## Expandable RecyclerView
 
+* RecyclerView Item클릭시 UI에 변화 줄떄 사용
+* ItemVIewHolder는 View의 재활용을 담당하기 때문에 **UI에 변화를 주고 스크롤을 하면 다른 position의 Item에도 변화가 갈수 있다.**
+  * **SparseBooleanArray**를 이용하여 Item의 클릭 상태를 저장하여 문제 해결 가능하다
 
+### Reference
 
+[Expandable ](https://dev-imaec.tistory.com/30)
 
 ## Intent&Bundle
 
