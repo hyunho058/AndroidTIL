@@ -126,6 +126,10 @@ Error inflating class android.support.v7.widget.RecyclerView
 
 [Expandable ](https://dev-imaec.tistory.com/30)
 
+[ Expandable RecyclerView](https://lakue.tistory.com/15?category=853542)
+
+
+
 ## Intent&Bundle
 
 ### Intent
