@@ -5,4 +5,4 @@
 * 앱 컴포넌트가 무엇을 할 것인지를 담는 메시지 객체
 * 다른 액티비티, 서비스, 브로드캐스트 리시버, 컨텐트 프로바이더 등을 실행 (==>인텐트는 이들 사이에서 데이터를 주고받기 위한 도구)
 
-![image-20200220232918695](C:%5CUsers%5Chyunh%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200220232918695.png)
+![image-20200512231257982](Intent.assets/image-20200512231257982.png)

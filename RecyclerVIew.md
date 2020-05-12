@@ -10,7 +10,7 @@
   * Vertical, Horizontal, Grid 형태의 레이아웃을 나타낼수 있음.
   * Adapter를 통해 만들어진 각 아이템 뷰는 ViewHolder객체에 저장되어 화면에 표시되고, 필요에 따라 생송 또는 재활용 된다.
 
-![image-20200304120342479](C:\Users\hyunh\AppData\Roaming\Typora\typora-user-images\image-20200304120342479.png)
+![image-20200512220809171](RecyclerVIew.assets/image-20200512220809171.png)
 
 ### RecyclerView
 
