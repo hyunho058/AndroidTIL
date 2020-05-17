@@ -51,28 +51,35 @@ android.support.v7.widget.RecyclerView.Adapter
 
 ![image-20200304122339061](RecyclerVIew.assets/image-20200304122339061.png)
 
+## RecyclerView의 재활용성
 
+![image-20200517214749188](RecyclerVIew.assets/image-20200517214749188.png) 
+
+* ListVIew
+  * 아래로 스크롤 할때 마다 맨 위에 위차한 뷰 객체가 삭제되고, 아랫 부분에서 나타날 뷰 객체를 새로 생성하면서 100개의 뷰 객체가 삭제되고 생성된다.
+* RecyclerView
+  * 사용자가 아래로 스크롤 할때 맨 위에 위치한 뷰 객체가 아래쪽에 새로 나올 뷰 객체로 이동하여 삭제와 생성을 하지않고 재사용 한다.
+  * 맨 처음 화면에 보여질 10개 정도의 뷰 객체만을 만들고, 실제 데이터가 100개든 1000개든 원래 만들어 놓은 10개의 객체만 계속 해서 재사용 한다.
 
 ## 기본 사용
 
 * Workflow
 
-![image-20200504101740885](RecyclerVIew.assets/image-20200504101740885.png) 
-
-* Adapter.class
-
-```java
-
-```
+![image-20200504101740885](RecyclerVIew.assets/image-20200504101740885.png) .
 
 
 
 * Method 실행 순서
   1. getItemCount()
+     * 화면에 표시해줄 데이터의 전체 길이를 리턴
   2. getItemViewType()
   3. onCreateViewHolder()
      * ItemClass
-  4. IonBindViewHolder
+     * VIewHolder 생성
+  4. onBindViewHolder
+     * 생성된 VIewHolder에 데이터를 바인딩 해주는 함수
+     * 데이터가 스크롤 되어서 맨위에있던 뷰 홀더 객체가 아래로 이동하면, 그레아웃은 재사용 하되 데이터는 새롭게 바뀐다
+       * 새롭게 보여질 데이터의 인덱스 값을 position 파라미터로 받을 수 있다.
 
 ![image-20200504101440610](RecyclerVIew.assets/image-20200504101440610.png) 
 
@@ -189,3 +196,5 @@ fragmentManager.popBackStack();
 ## Other Refernece
 
 [itemListener](https://onlyformylittlefox.tistory.com/9)
+
+[RecyclerView 이해](https://wooooooak.github.io/android/2019/03/28/recycler_view/)
