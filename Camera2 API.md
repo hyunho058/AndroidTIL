@@ -68,7 +68,19 @@ String serialized = Base64.encodeToString(bytes,Base64.NO_WRAP);
 
 [Java Socket Image Send](https://javaexpert.tistory.com/420)
 
+## Err
 
+```
+camera Gradle sync failed: The specified Gradle distribution 'https://services.gradle.org/distributions/gradle-4.4-all.zip' does not appear to contain a Gradle distribution.
+```
+
+### Reference
+
+[Gradle Download](https://services.gradle.org/distributions/)
+
+[Stackoverflow](https://stackoverflow.com/questions/30526613/android-studio-gradle-sync-error-on-gradle-diagnostics-x-x-x-jar)
+
+[참고 blog](https://nobase-dev.tistory.com/248)
 
 # Reference
 
