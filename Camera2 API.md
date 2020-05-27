@@ -27,7 +27,48 @@
 
 ![image-20200521082954826](image/image-20200521082954826.png) 
 
-![image-20200522112128385](image/image-20200522112128385.png)
+![image-20200522112128385](image/image-20200522112128385.png) 
+
+
+
+## Data Send
+
+* Base64
+  * 인코딩시 인코딩된 문자열의 한Line을 표시하기 위한 flag bit로서 LF(\n)을 삽입된다
+  * 76글자가 넘는다면, 해당 위치에 개행문자(LF)를 삽입한다
+* EncodeToString
+
+```java
+public static String encodeToString (byte[] input, int flags)
+```
+
+![img](image/img.png)
+
+* DEFAULT
+
+```java
+String serialized = Base64.encodeToString(bytes,Base64.DEFAULT);
+```
+
+![img](image/img-1590541655418.png)
+
+* NO_WRAP
+
+```java
+String serialized = Base64.encodeToString(bytes,Base64.NO_WRAP);
+```
+
+![img](image/img-1590541669156.png)
+
+
+
+### Reference
+
+[Base64](https://kjwsx23.tistory.com/234)
+
+[Java Socket Image Send](https://javaexpert.tistory.com/420)
+
+
 
 # Reference
 
